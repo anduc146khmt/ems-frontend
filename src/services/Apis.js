@@ -1,11 +1,11 @@
 const envoirnment = process.env.NODE_ENV;
 const apis = {
   BASE_LOCAL_URL:
-    envoirnment === 'development'
+    envoirnment === 'production'
       ? 'https://nodejs-project.herokuapp.com/'
       : '',
   BASE:
-    envoirnment === 'development'
+    envoirnment === 'production'
       ? 'https://nodejs-project.herokuapp.com/'
       : '',
   LOGIN: '/api/v1/login/',
