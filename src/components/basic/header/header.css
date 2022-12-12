@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; 
+    width:80%;
+    margin: auto;
+}
+.logo{
+    width:82px;
+    height: 88px;
+}
+.header__left {
+    display: flex;
+    justify-content: space-between;
+}
+.logo__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #3907FF;
+}
